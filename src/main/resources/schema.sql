@@ -1,0 +1,9 @@
+DROP TABLE STATIONS;
+
+CREATE TABLE IF NOT EXISTS  STATIONS (
+  stationId               INT         NOT NULL AUTO_INCREMENT  PRIMARY KEY,
+  NAME        VARCHAR(15) NOT NULL ,
+  hdEnabled       BOOLEAN NOT NULL,
+  callSign        VARCHAR(50) NOT NULL,
+
+);
